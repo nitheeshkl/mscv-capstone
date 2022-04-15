@@ -1,0 +1,9 @@
+
+data_generation:
+  data_dir: "${hydra:runtime.cwd}/data"
+  obj_model: "${data_generation.data_dir}/model/packet/mesh.obj"
+  bin_model: "${data_generation.data_dir}/model/crate/14029_Plastic_Fruit_Crate_v1_L1.obj"
+  output_dir: "${data_generation.data_dir}/generated" 
+  image_size: 256
+  num_objects: 40
+  num_images: 1000
